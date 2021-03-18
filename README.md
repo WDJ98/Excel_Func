@@ -1,2 +1,3 @@
 # Excel_Func
 Excel functions with Python
+decrypt_encryption_excel.py:包含加密Excel和解密Excel方法，传参均为存放Excel文件夹路径和密码，将一个文件夹内所有Excel文件加密解密，可以分别调用也可以通过配置文件来运行
