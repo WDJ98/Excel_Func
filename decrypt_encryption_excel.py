@@ -22,17 +22,7 @@ def decrypt_excel(folder_path,password):
         xw = xlApp.Workbooks.Open(file_path, False, False, None, password)
         xw.SaveAs(file_path, None, "", "")
     xlApp.Quit()
-# file_path=r"C:\Users\86173\Desktop\test\新建 Microsoft Excel 工作表.xlsx"
-# file_path1=r"C:\Users\86173\Desktop\test\新建 Microsoft Excel 工作表2.xlsx"
-# password="Password123"
-# xlApp.Visible = False
-# xlopen = xlApp.Workbooks.Open(file_path,False, False, None, password)
-# xlApp.DisplayAlerts = False
-# xlopen.SaveAs(file_path1,None,"",'')
-#
-# xlApp.Quit()
 
-# ,Password="",WriteResPassword=password
 if __name__ == '__main__':
     password="Password123"
     with open("excel_config.txt","r",encoding="utf8") as f:
