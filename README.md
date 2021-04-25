@@ -1,3 +1,4 @@
 # Excel_Func
 Excel functions with Python
 decrypt_encryption_excel.py:包含加密Excel和解密Excel方法，传参均为存放Excel文件夹路径和密码，将一个文件夹内所有Excel文件加密解密，可以分别调用也可以通过配置文件来运行
+copy_excel:功能为复制一个文件夹内所有的Excel文件的数据，汇总到一个新的文件夹中；另有一个根据列索获取Excel列名,例如输入8，返回H的函数
